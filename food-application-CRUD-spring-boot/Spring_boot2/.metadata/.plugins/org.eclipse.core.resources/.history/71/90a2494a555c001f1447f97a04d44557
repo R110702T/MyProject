@@ -1,0 +1,23 @@
+package edu.java.food_app.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+import edu.java.food_app.dto.food;
+import edu.java.food_app.service.FoodService;
+
+@RestController
+public class FoodController {
+
+	
+	@Autowired
+	FoodService service;  //has relation
+	
+	
+	 public food saveFood(food f)
+	 {
+		 return service.saveFood(f);
+	 }
+	
+	
+}

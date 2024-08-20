@@ -1,0 +1,15 @@
+package edu.java.food_app.dao;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import edu.java.food_app.repo.FoodRepo;
+
+@Repository
+public class FoodDao {
+
+	
+	
+	@Autowired
+	FoodRepo repo;   //has relation
+}

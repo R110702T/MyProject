@@ -1,0 +1,25 @@
+package edu.java.food_app.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import edu.java.food_app.dao.FoodDao;
+import edu.java.food_app.dto.food;
+
+@Service
+public class FoodService {
+
+	
+	@Autowired
+	FoodDao dao;  //has relation
+	
+	public food saveFood(food f)
+	{
+		return dao.saveFood(f);
+	}
+	
+	public food fetchById(int id)
+	{
+		return dao.fetchById(id);
+	}
+}

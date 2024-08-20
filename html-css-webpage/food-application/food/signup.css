@@ -1,0 +1,43 @@
+*{
+    box-sizing:border-box;
+    margin:0 auto;
+  
+
+}
+body{
+background-image:linear-gradient(pink,rgb(116, 116, 150))
+}
+h1{
+  color:rgb(45, 9, 102);
+  margin-left:150px;
+  margin-bottom:50px;
+
+   text-decoration:underline;
+}
+label{
+    font-weight:900;
+    margin-left:40px;
+    color:rgb(199, 223, 41)
+
+}
+input{
+    margin-left:40px;
+}
+aside{
+    height:700px;
+    width:500px;
+    background-image: linear-gradient( rgb(157, 107, 60),rgb(95, 48, 80),rgb(96, 200, 131));
+    padding:50px;
+    margin-left:700px;
+}
+div{
+    height:700px;
+    width:500px;
+    float:left;
+    margin-left:200px;
+    background-color: rgb(7, 80, 42);
+    background-image: url(./item/wow1.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}

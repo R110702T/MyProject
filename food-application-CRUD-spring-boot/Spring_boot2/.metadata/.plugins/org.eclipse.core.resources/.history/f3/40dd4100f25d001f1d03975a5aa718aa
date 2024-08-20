@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Grey+Qo&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap');
+        </style>
+    <link rel="stylesheet" href="./food.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <article>
+    <header>
+     
+            <div class="logo"><a href="#"></a></div>
+            <div class="search">
+                <input type="text" name="name1" placeholder="search">
+                <span><i class="fa-solid fa-magnifying-glass"></i></span><br>
+               </div>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="#">item</a> 
+                        <div id="dropdown">
+                          <ul>
+                        <li><a href="#">VEG</a></li>
+                        <li><a href="#">NON VEG</a></li>
+                        <li><a href="#">VEGAN</a></li>
+                         </ul>
+                        </div>
+                    </li>
+                    <li><a href="./signup.html"><span><i class="fa-solid fa-user"></i>&nbsp;&nbsp;&nbsp;</span>sign-up</a></li>
+                    <li><a href="#"><span><i class="fa-solid fa-cart-plus"></i>&nbsp;&nbsp;&nbsp;</span>cart</a></li>
+                    <li><a href="#"><span><i class="fa-solid fa-mobile-screen-button"></i>&nbsp;&nbsp;&nbsp;</span>contact</a></li>
+                </ul>
+
+            </div>
+        
+    </header>
+
+
+
+    <main>
+      
+            <div id="page">
+               
+          <h1>for those who savor every bite and relish diverse flavors,the culinary journey is a lifelong adventure. food is not just sustenance it's a passion that fuels the soul</h1>
+          </div>  
+
+            <div id="menu"></div>
+    </main>
+
+
+    <section>
+        <div id="first">
+
+            <div class="card card1">
+                   <div class="i1"><img src="./item/fuchka.jpg"></div>
+                   <div class="i2"> <button>5*</button></div>
+                   <div class="i3"><h3>20 per plate</h3><p>fuchka</p></div>
+            </div>
+
+            <div class="card card2">
+                <div class="i1"><img src="./item/cake2.jpg"></div>
+                <div class="i2"> <button>4.4**</button></div>
+                <div class="i3"><h3>300 per pound</h3><p>cake</p></div>
+            </div>
+            <div class="card card3">
+                <div class="i1"><img src="./item/wow1.avif"></div>
+                <div class="i2"> <button>5.1**</button></div>
+                <div class="i3"><h3>300 rupee</h3><p>starter</p></div>
+            </div>
+            <div class="card card4">
+            <div class="i1"><img src="./item/galda.avif"></div>
+            <div class="i2"> <button>4.0**</button></div>
+            <div class="i3"><h3>120 per plate</h3><p>prawn</p></div>
+           </div>
+          </div> 
+           <div id="second">
+            
+            <div class="card card5">
+                 <div class="i1"><img src="./item/luchi-mutton.JPG"></div>
+                 <div class="i2"> <button>4.2**</button></div>
+                <div class="i3"><h3>100 per plate</h3><p>kachuri mutton</p></div>
+            </div>
+
+            <div class="card card6"> <div class="i1"><img src="./item/ramen.jpg"></div>
+            <div class="i2"> <button>3.5**</button></div>
+            <div class="i3"><h3>300 per one</h3><p>ramen</p></div></div>
+
+            <div class="card card7"> <div class="i1"><img src="./item/momo spicy.jpg"></div>
+            <div class="i2"> <button>4.9**</button></div>
+            <div class="i3"><h3>6pc in plate</h3><p>spicy momo</p></div></div>
+
+            <div class="card card8"> <div class="i1"><img src="./item/wow.avif"></div>
+            <div class="i2"> <button>5.0 **</button></div>
+            <div class="i3"><h3>150 per plate</h3><p>chowmein</p></div></div>
+
+        </div>
+
+           
+
+    </section>
+
+
+<footer>
+      <div class="foo">
+        <div class="contact">
+            <p>CONTACT US</p><hr><br><br>
+            <h2>
+            Chennai, Tamilnadu</h2><br>
+            <h2><i class="fa-solid fa-envelope"></i>&nbsp; Email:iyamaiti.rimi@gmail.com</h2>
+            <h2><i class="fa-solid fa-phone"></i>&nbsp; Phone:9641906201</h2><br><br>
+
+            <i class="fa-brands fa-twitter"></i>&nbsp; &nbsp; &nbsp; &nbsp; 
+            <i class="fa-brands fa-facebook"></i>&nbsp; &nbsp; &nbsp; 
+            <i class="fa-brands fa-instagram"></i>&nbsp; &nbsp; 
+        </div>
+        <div class="map">
+            <h2><i class="fa-solid fa-location-dot"></i>Our Location</h2><hr><br>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13928.065013817592!2d80.19998618141632!3d13.068876844638186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267aa53d211ff%3A0xf09b371c9c5fd778!2sRE%20Apartments!5e0!3m2!1sen!2sin!4v1723984976984!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+      </div>
+      <p>&copy; 2024 food order.allrights reserved.</p>
+     
+
+</footer>
+
+
+</article>
+
+
+</body>
+</html>

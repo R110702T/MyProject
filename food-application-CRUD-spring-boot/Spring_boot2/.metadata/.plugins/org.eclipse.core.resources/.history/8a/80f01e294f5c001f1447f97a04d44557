@@ -1,0 +1,5 @@
+package edu.java.food_app.dto;
+
+public class User {
+
+}

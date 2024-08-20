@@ -1,0 +1,72 @@
+todo.html codes
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO-APP</title>
+    <link rel="stylesheet" href="./todo.css">
+</head>
+
+
+<body>
+    <header id="todo_block">
+        <h1>TODO APP</h1>
+        <form class="create_task">
+            <input type="text" placeholder="Add Task" id="input_val">
+            <input type="submit" value="ADD TASK">
+        </form>
+    </header>
+<main id="mainBlock">
+    <h1>TODO List</h1>
+    <div id="tasks">
+        <!-- <div class="task">
+            <div class="content">
+                <input type="text" value="myapp" id="text" readonly>
+            </div>
+            <div class="actions">
+                <button class="edit">Edit</button>
+                <button class="delete">Delete</button>
+            </div>
+        </div> -->
+    </div>
+</main>
+
+
+
+    <script src="./todo.js"></script>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="password" id="pass" placeholder="enter password">
+    <input type="checkbox" id="check">
+    <span id="show">Show Password</span>
+
+    <script>
+        let pass = document.getElementById("pass");
+        let check = document.getElementById("check");
+        let show = document.getElementById("show");
+        check.addEventListener("click",e=>{           //pass.setAttribute("type","text")
+            // console.log(e.target.checked);               show.innerText=
+            if(e.target.checked){
+                pass.setAttribute("type","text");
+                show.innerText="Hide Password"
+            }else{
+                pass.setAttribute("type","password");
+                show.innerText="Show Password"
+            }
+        })
+    </script>
+</body>
+</html>

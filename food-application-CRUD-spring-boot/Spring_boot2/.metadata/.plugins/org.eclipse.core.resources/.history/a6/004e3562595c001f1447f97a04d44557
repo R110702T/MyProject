@@ -1,0 +1,40 @@
+package edu.java.food_app.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+import edu.java.food_app.dto.food;
+import edu.java.food_app.service.FoodService;
+
+@RestController
+public class FoodController {
+
+	
+	@Autowired
+	FoodService service;  //has relation
+	
+	@PostMapping("/saveProduct")
+	 public food saveFood(@RequestBody food f)
+	 {
+		 return service.saveFood(f);
+	 }
+	
+	@GetMapping("/fetchById")
+	public food FetchById(@RequestParam int id)
+	{
+		return service.fetchById(id);
+	}
+	
+	@GetMapping("/fetchByName/{name}")
+	public food fetchByName(@PathVariable String name)
+	{
+		return service.fetchByname(name);
+	}
+	
+	
+}

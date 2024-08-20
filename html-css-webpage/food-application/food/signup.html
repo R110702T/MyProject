@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+<head>
+    
+    <link rel="stylesheet" href="./signup.css">
+</head>
+<body>
+    <div>
+    
+    </div>
+    <aside>
+    <form action="" method="get" autocomplete="on">
+
+     <h1>SIGN-UP</h1>
+
+     <label >FULL NAME</label><br>
+     <input type="text" name="name" pattern="[A-Za-z]{4,}" required><br><br>
+
+     <label>EMAIL</label><br>
+     <input type="email" name="email" placeholder="xyz@gmail.com" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required><br><br>
+
+     <label>MOBILE</label><br>
+     <input type="tel" name="mobile" placeholder="0123456789" pattern="[6-9]{1}[0-9]{9}" required><br><br>
+
+     <label>GENDER</label><br>
+     <input type="radio" name="gender">FEMALE
+     <input type="radio" name="gender">MALE
+     <input type="radio" name="gender">OTHER<br><br>
+
+     <label>CREATE PASSWORD</label><br>
+     <input type="password" name="password" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[~!@#$%])(?=.*\d).{4}"><br><br>
+
+   <label>ORDER</label>
+   <input type="text" name="order" value="FOOD" disabled><br><br>
+
+    <label>TYPE OF FOOD PREFERENCE </label><br>
+    <input type="text" name="prefer" placeholder="-select-" list="demo" autofocus>
+      <datalist id="demo">
+        <option>VEG</option>
+        <option>NON VEG</option>
+        <option>VEGAN</option>
+      </datalist><br><br>
+
+     <label>LANGUAGE</label><br>
+       <input type="checkbox" name="lang">ENGLISH
+       <input type="checkbox" name="lang">HINDI
+       <input type="checkbox" name="lang">BENGALI
+       <input type="checkbox" name="lang">TAMIL
+       <input type="checkbox" name="lang">BHOJPURI<br><br><br><br>
+
+
+ 
+     <input type="submit" value="SUBMIT">
+     <input type="reset" value="RESET">
+
+</form>
+</aside>
+
+
+
+</body>
+</html>

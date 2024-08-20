@@ -1,0 +1,50 @@
+package edu.java.food_app.dao;
+
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import edu.java.food_app.dto.food;
+import edu.java.food_app.repo.FoodRepo;
+
+@Repository
+public class FoodDao {
+
+	
+	@Autowired
+	FoodRepo repo;   //has relation
+	
+	
+	//saveFood
+	public food saveFood(food f)
+	{
+		return repo.save(f);
+	}
+	
+	//fetchById
+	public food fetchById(int id)
+	{
+		Optional <food> o=repo.findById(id);
+		
+		if(o.isPresent())
+		{
+			o.get();
+		}
+		return null;
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
