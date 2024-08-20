@@ -1,34 +1,43 @@
-PROJECT COLLECTION<hr><br>
-This repository includes a diverse set of projects developed in various technologies. below is an overview of each project , including setup instruction and technology used.
-<b>core java project</b>
-description: a console based scientific calculator that performs various mathematical function and handling Exception
-technologu-used:core java
-<b>tic tac toe game</b>
-description:a console based tic tac toe game
-technology:core java
-<b>swiggy application menu and otp check</b>
-description:a simple simulation of a swiggy like application with menu and user authentication
-technology:core java
-<b>number guessing game</b>
-description:a console based game where users guess a randoml generted number
-technology:core java
+<h1>PROJECT COLLECTION</h1><hr><br>
+<p>This repository includes a diverse set of projects developed in various technologies. below is an overview of each project , including setup instruction and technology used.</p>
+
+<h2>SPRING BOOT FOOD APPLICATION </h2>
+<b>Description:</b>food application with <b>CRUD</b> operation for managing order and users
+<b>Technology:</b>SpringBoot, Java, MYSQL, Hibernate
 
 
-<b>student and batch management system</b>
-description:a management system that handles students and batches with many to many relationship useing hiberanate
-technology:java, hibernate, mysql
+<h2>STUDENT AND BATCH MANAGEMET SYSTEM</h2>
+<b>Description:</b>a management system that handles students and batches with <b>many to many relationship</b> useing hiberanate
+<b>Technology:</b>Java, Hibernate, MYSQL
 
-<food application with CRUD operation for managing order and users</b>
-technology:spring boot, java, mysql,hibernate
-html/css
 
-<b>food application</b>
-description:a static webpage showcasing a food delivery service with a visual appealing layout
-technology:html, css
+<h1>CORE JAVA TECHNOLOGY</h1><hr><br>
 
-<b>todo application</b>
-description:a dynamic todo applocation to manage tast
-technolog:html, css, javascript
+<h2>SCIENTIFIC CALCULATOR</h2>
+<b>Description:</b> A console based scientific calculator that performs various <b>mathematical function and handling Exception</b>
+<b>Technologu-used:</b>Core Java
+
+<h2>TIC TAC TOE GAME</h2>
+<b>Description:</b> A console based tic tac toe game
+<b>Technology:</b>Core Java
+
+<h2>SWIGGY APPLICATION MENU AND AUTHENTICATION</h2>
+<b>Description:</b> A simple simulation of a swiggy like application with menu and user authentication
+<b>Technology:</b>Core Java
+
+<h2>NUMBER GUESSING GAME</h2>
+<b>Description:</b> A console based game where users guess a random generted number
+<b>Technology:</b>Core Java
+
+
+  <h1>FRONTEND TECHNOLOGY</h1><hr><br>
+<h2>FOOD WEBPAGE</h2>
+<b>Description:</b> A static webpage showcasing a food delivery service with a visual appealing layout
+<b>Technology:</b>Html, Css
+
+<h2>TODO APPLICATION</h2>
+<b>Description:</b>A dynamic todo applocation to manage tast
+<b>Technology:</b>Html, Css, JavaScript
 
 
 
